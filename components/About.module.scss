@@ -1,0 +1,190 @@
+.conatiner{
+
+}
+$headcolor:#e4743b;
+.aboutus{
+    h1{
+        font-size: 5rem;
+        color: $headcolor;
+        font-style: Montserrat;
+        text-align: center;
+    }
+    #abt3{
+        text-align: center;
+      font-size: 1.5rem;
+      font-family: Montserrat-Medium;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      margin-bottom: 10%;
+    }
+
+    .abouttxt{
+        margin:2rem;
+    h3{
+        font-size: 2rem;
+    font-family: Montserrat-Bold;
+     font-weight: 700;
+        
+    }
+    h5{
+        font-size: 1.4rem;
+    font-family: Montserrat-Medium;
+     font-weight: 500;
+     line-height: 1.9;
+    }
+    button{
+
+            background-color: #e4743b;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          font-size: 20px;
+          margin: 4px 10px;
+         
+        }
+    }
+    
+}
+.column2{
+ 
+    background-color:black;
+    .image{
+        
+        background-size: cover;
+        opacity: 0.3;
+        width: 100%;
+      }
+    .row {
+        display:flex;
+        justify-content:space-around;
+        position: absolute;
+        top: 180%;
+        width: 100%;
+   
+        h1{
+            color:$headcolor;
+            margin-bottom: 5%;
+            font-size: 4rem;
+            font-family: Montserrat-Bold;
+            font-weight: 700;
+        }
+        h4{
+            color: white;
+            font-size: 1.5rem;
+            font-family: Montserrat-Medium;
+            font-weight: 500;
+        }
+    }
+  }
+  .social{
+      .thought{
+          padding-top: 5rem;
+          padding-bottom: 6rem;
+      }
+      p{
+        // margin-Top:"10%";
+         margin-Bottom:0px;
+        // margin-Left:"26%";
+         text-align: center;
+         font-size: 3rem;
+         font-family:Montserrat-Bold;
+         font-weight:700;
+      }
+      a{
+          color:$headcolor;
+      }
+      span{
+               margin-left: 64%;
+                font-size: 2rem;
+                font-family:'Roboto';
+                font-style: italic;
+            
+      }
+      .followus{
+            display: flex;
+            justify-content: space-between;
+            color: aliceblue;
+            background-color: $headcolor;
+            
+            
+            h3{
+                margin: 2rem;
+                padding: 2rem;
+                font-size: xx-large;
+            }
+            .Sicons{
+                margin: 2rem;
+                padding: 1rem;
+            }
+  
+            #fa{
+               
+                padding: 10px;
+                font-size: 30px;
+                height: 55px;
+                width: 55px;
+                text-decoration: none;
+                margin: 15px 29px;
+                color: white;
+          }
+        }
+       
+    }
+
+    .heading{
+        padding-left: 3rem;
+        h4{
+            color:$headcolor;
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: large;
+        }
+    }
+    .contact{
+       
+        display: flex;
+         flex-direction:row;
+       
+          .connect{
+                width: 50%;
+                 display: flex;
+                
+                    .cicon{
+                      
+                       display:grid;
+                        padding: 15px;
+                        text-align: center;
+                        padding-left: 3rem;
+                        color:$headcolor;
+                      
+                        i{
+                           
+                            background-color: whitesmoke;
+                            padding-top: 1rem;
+                            width: 90px;
+                            height: 90px;
+                            border-radius: 45%;
+                            
+                            font-size:60px;
+                        }
+                    }
+                    .cinfo{
+                        padding-left: 3rem;
+                        display:grid;
+                        h3{
+                    //         fontSize:25,
+                    // fontfamily:"Montserrat",
+                    // fontweight: 700
+                    font-size: 25;
+                    font-family: "montserrat-Bold";
+                    font-weight: 700;
+                        }
+                    }
+          }
+          .cimage{
+              
+            
+          }
+    }
