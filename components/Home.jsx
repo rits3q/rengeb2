@@ -1,6 +1,7 @@
 import styles from "./Home.module.scss";
 import Image from "next/image";
 import heroImage from "../public/Subtract.png";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -28,6 +29,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Footer></Footer>
     </div>
   );
 };
