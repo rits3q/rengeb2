@@ -19,7 +19,11 @@ const Gallery = () => {
   return (
     <div className={styles.galleryContainer}>
       {images.map((image) => (
-        <Image src={image.src} layout="fill"></Image>
+        <div
+          key={image.src}
+          style={{ backgroundImage: `url(${image.src})` }}
+          className={styles.image}
+        ></div>
       ))}
     </div>
   );

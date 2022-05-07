@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import pic1 from "../public/service1.jpg";
 import pic2 from "../public/service2.jpg";
 import pic3 from "../public/service3.jpg";
+import gallery from "../sub-components/gallery";
+import Gallery from "../sub-components/gallery";
 
 const Home = () => {
   return (
@@ -112,6 +114,7 @@ const Home = () => {
             </div> */}
         </div>
       </div>
+      <Gallery></Gallery>
       <Footer></Footer>
     </div>
   );
