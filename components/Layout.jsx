@@ -1,5 +1,5 @@
-import Head from "next/dist/shared/lib/head"
-
+import Head from "next/head"
+// import {  Head} from 'next/document'
 const Layout = ({ children }) => {
   return (
     <div>

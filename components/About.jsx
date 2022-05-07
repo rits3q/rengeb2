@@ -1,5 +1,4 @@
 import styles from "./About.module.scss";
-import pic from "../public/img1.jpg";
 import pic2 from "../public/planning.jpg";
 
 import Image from "next/image";
@@ -31,7 +30,9 @@ const About = () => {
         <div className={styles.column2}>
   
               <Image  
-                    src={pic}
+                    src={
+                   "/img1.jpg"
+                    }
                     className={styles.image}
                     width={500}
                     height={250}
@@ -71,10 +72,10 @@ const About = () => {
              <h3>Follow us on</h3>
              
            <div className={styles.Sicons}>
-                <a href="#" class="fa fa-facebook" id={styles.fa}></a>
-                <a href="#" class="fa fa-instagram" id={styles.fa}></a>
-                <a href="#" class="fa fa-linkedin" id={styles.fa}></a>
-                <a href="#" class="fa fa-twitter" id={styles.fa}></a> 
+                <a href="#" className="fa fa-facebook" id={styles.fa}></a>
+                <a href="#" className="fa fa-instagram" id={styles.fa}></a>
+                <a href="#" className="fa fa-linkedin" id={styles.fa}></a>
+                <a href="#" className="fa fa-twitter" id={styles.fa}></a> 
             </div>
 
           </div>
@@ -92,9 +93,9 @@ const About = () => {
       
             <div className={styles.cicon}>
                   
-                  <i class="fa fa-mobile-phone"></i>
-                  <i class="fa fa-envelope"></i>
-                  <i class="fa fa-map-marker"></i>    
+                  <i className="fa fa-mobile-phone"></i>
+                  <i className="fa fa-envelope"></i>
+                  <i className="fa fa-map-marker"></i>    
                 
              </div>
             <div className={styles.cinfo}>
