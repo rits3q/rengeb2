@@ -64,7 +64,7 @@ const Header = () => {
         <div className={styles.container}>
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
-          <Link href="/serivces">Services</Link>
+          <Link href="/services">Services</Link>
         </div>
         <div className={styles.container}>
           <Link href="/contact" passHref>
